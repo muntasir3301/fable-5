@@ -257,13 +257,95 @@ th {
 }
 
 
-/* Quiz / Lesson Box */
+/* Quiz Page Styles */
 .quiz-box {
     background-color: #1e293b;
     border: 1px solid #334155;
     border-radius: 8px;
     padding: 25px;
     margin-bottom: 25px;
+}
+
+.question-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+
+.quiz-scan-container {
+    background-color: #0f172a;
+    border: 1px solid #334155;
+    border-radius: 6px;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.quiz-scan-img {
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+    border-radius: 6px;
+    border: 2px solid #38bdf8;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.options-list {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.options-list li {
+    background-color: #0f172a;
+    border: 1px solid #334155;
+    border-radius: 6px;
+    padding: 12px 15px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.options-list li:hover {
+    border-color: #38bdf8;
+}
+
+.options-list input[type="radio"] {
+    margin-right: 10px;
+}
+
+.explanation-box {
+    background-color: #0f2744;
+    border-left: 4px solid #38bdf8;
+    padding: 15px;
+    border-radius: 4px;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+/* Filter Chips */
+.topic-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+.chip {
+    background-color: #1e293b;
+    border: 1px solid #334155;
+    color: #cbd5e1;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.chip:hover,
+.chip.active {
+    background-color: #0284c7;
+    color: #ffffff;
+    border-color: #0284c7;
 }
 
 /* Course Lesson Comparisons */
