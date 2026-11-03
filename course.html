@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MRI Simulator — Courses</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Simple Navigation Header with Logo -->
+    <header>
+        <div class="header-container">
+            <a href="index.html" class="logo">
+                <img src="img/logo.svg" alt="MRI Simulator Logo" class="header-logo">
+                <span>MRI</span>Sim
+            </a>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="courses.html" class="active">Courses</a>
+                <a href="quiz.html">Quiz</a>
+                <a href="reference.html">Reference</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <div class="container">
+
+        <!-- Page Heading -->
+        <h1>Guided MRI Courses</h1>
+        <p>
+            A structured path from fundamental nuclear spin physics to clinical scanning. Designed for students, radiography technicians, and imaging professionals.
+        </p>
+
+        <!-- Course Summary Hero -->
+        <div class="hero">
+            <h2>Course Curriculum Overview</h2>
+            <p>
+                Follow these 4 self-paced modules to master pulse sequences, k-space filling, image contrast weighting, and scanner safety standards.
+            </p>
+            <div class="stats-row">
+                <div class="stat-box">
+                    <div class="stat-number">4</div>
+                    <div class="stat-label">Core Modules</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-number">14</div>
+                    <div class="stat-label">Illustrated Lessons</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-number">100%</div>
+                    <div class="stat-label">Free &amp; Open Access</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Featured Lesson: Visual T1 vs T2 Comparison -->
+        <div class="quiz-box">
+            <span class="card-tag">Interactive Illustrated Lesson</span>
+            <h2>Lesson 1.2: Dark or Bright? T1 vs T2 Contrast</h2>
+            <p>
+                The fundamental visual rule that allows you to instantly differentiate T1 from T2-weighted scans in clinical practice:
+            </p>
+
+            <!-- Visual Side-by-Side Scans -->
+            <div class="lesson-compare-grid">
+                <!-- Column 1: T1 Scan -->
+                <div class="lesson-compare-col">
+                    <img src="img/lesson-t1.jpg" alt="T1 Weighted Brain MRI Scan" class="lesson-img">
+                    <h3 style="color: #38bdf8;">T1-Weighted Scan</h3>
+                    <p style="font-size: 13px; color: #cbd5e1; margin-bottom: 5px;"><strong>Ventricles (CSF Fluid):</strong> <span style="color: #f87171; font-weight: bold;">DARK</span></p>
+                    <p style="font-size: 13px; color: #cbd5e1; margin-bottom: 5px;"><strong>Fat / White Matter:</strong> <span style="color: #4ade80; font-weight: bold;">BRIGHT</span></p>
+                    <p style="font-size: 12px; color: #94a3b8; margin: 0;">Short TR (&lt; 600ms) &bull; Short TE (&lt; 20ms)</p>
+                </div>
+
+                <!-- Column 2: T2 Scan -->
+                <div class="lesson-compare-col">
+                    <img src="img/lesson-t2.jpg" alt="T2 Weighted Brain MRI Scan" class="lesson-img">
+                    <h3 style="color: #38bdf8;">T2-Weighted Scan</h3>
+                    <p style="font-size: 13px; color: #cbd5e1; margin-bottom: 5px;"><strong>Ventricles (CSF Fluid):</strong> <span style="color: #4ade80; font-weight: bold;">BRIGHT</span></p>
+                    <p style="font-size: 13px; color: #cbd5e1; margin-bottom: 5px;"><strong>Fat / White Matter:</strong> <span style="color: #94a3b8; font-weight: bold;">DARK / INTERMEDIATE</span></p>
+                    <p style="font-size: 12px; color: #94a3b8; margin: 0;">Long TR (&gt; 2000ms) &bull; Long TE (&gt; 80ms)</p>
+                </div>
+            </div>
+
+            <div style="background-color: #0f172a; border-left: 4px solid #38bdf8; padding: 15px; border-radius: 4px; margin-top: 15px;">
+                <strong>Clinical Takeaway Rule:</strong> Look at fluid in the ventricles. On T1, fluid is dark. On T2, fluid is bright. Because most pathological conditions (edema, inflammation, tumors) increase free water content, they appear bright on T2 images.
+            </div>
+
+            <div style="margin-top: 15px;">
+                <a href="quiz.html" class="btn btn-primary">Take Weighting Quiz →</a>
+            </div>
+        </div>
+
+        <!-- Curriculum Modules List with Image Previews -->
+        <h2>Full Course Syllabus</h2>
+
+        <!-- Module 1 -->
+        <div class="module-header">Module 1: Foundations of MRI Physics</div>
+        
+        <div class="lesson-row">
+            <div style="display: flex; align-items: center; gap: 15px;">
+                <img src="img/lesson-what-is-mri.jpg" alt="MRI Lesson Preview" style="width: 50px; height: 50px; object-fit: cover; border-radius: 4px; border: 1px solid #475569;">
+                <div class="lesson-info">
+                    <h4>Lesson 1.1: What is an MRI Image?</h4>
+                    <p>Pixels, signal brightness, and how tissue water protons respond to static magnetic fields.</p>
+                </div>
+            </div>
+            <span class="card-tag">Beginner</span>
+        </div>
+
+        <div class="lesson-row">
+            <div style="display: flex; align-items: center; gap: 15px;">
+                <img src="img/lesson-t1.jpg" alt="T1 Lesson Preview" style="width: 50px; height: 50px; object-fit: cover; border-radius: 4px; border: 1px solid #475569;">
+                <div class="lesson-info">
+                    <h4>Lesson 1.2: Dark or Bright? T1 vs T2 Contrast</h4>
+                    <p>The golden rule for differentiating T1, T2, and Proton Density weighting.</p>
+                </div>
+            </div>
+            <span class="card-tag">Beginner</span>
+        </div>
+
+        <div class="lesson-row">
+            <div style="display: flex; align-items: center; gap: 15px;">
+                <img src="img/brain_axial.jpg" alt="Net Magnetization Preview" style="width: 50px; height: 50px; object-fit: cover; border-radius: 4px; border: 1px solid #475569;">
+                <div class="lesson-info">
+                    <h4>Lesson 1.3: Net Magnetization &amp; Larmor Frequency</h4>
+                    <p>Precession, gyromagnetic ratio, and resonance at 1.5 Tesla vs 3.0 Tesla.</p>
+                </div>
+            </div>
+            <span class="card-tag">Beginner</span>
+        </div>
+
+        <!-- Module 2 -->
+        <div class="module-header">Module 2: Pulse Sequences &amp; Timing</div>
+
+        <div class="lesson-row">
+            <div style="display: flex; align-items: center; gap: 15px;">
+                <img src="img/contrast-t1-pd-t2.jpg" alt="Spin Echo Sequence" style="width: 50px; height: 50px; object-fit: cover; border-radius: 4px; border: 1px solid #475569;">
+                <div class="lesson-info">
+                    <h4>Lesson 2.1: Spin Echo (SE) Sequence</h4>
+                    <p>The classic 90° excitation followed by a 180° refocusing pulse to eliminate dephasing.</p>
+                </div>
+            </div>
+            <span class="card-tag">Core Sequence</span>
+        </div>
+
+        <div class="lesson-row">
+            <div style="display: flex; align-items: center; gap: 15px;">
+                <img src="img/quiz-t2.jpg" alt="Gradient Echo Preview" style="width: 50px; height: 50px; object-fit: cover; border-radius: 4px; border: 1px solid #475569;">
+                <div class="lesson-info">
+                    <h4>Lesson 2.2: Gradient Recalled Echo (GRE)</h4>
+                    <p>Low flip angles, gradient reversal refocusing, and fast scanning mechanisms.</p>
+                </div>
+            </div>
+            <span class="card-tag">Core Sequence</span>
+        </div>
+
+        <div class="lesson-row">
+            <div style="display: flex; align-items: center; gap: 15px;">
+                <img src="img/quiz-flair.jpg" alt="FLAIR & STIR Preview" style="width: 50px; height: 50px; object-fit: cover; border-radius: 4px; border: 1px solid #475569;">
+                <div class="lesson-info">
+                    <h4>Lesson 2.3: Inversion Recovery (FLAIR &amp; STIR)</h4>
+                    <p>Using 180° preparatory pulses and Inversion Time (TI) to suppress fluid or fat.</p>
+                </div>
+            </div>
+            <span class="card-tag">Clinical</span>
+        </div>
+
+        <!-- Module 3 -->
+        <div class="module-header">Module 3: Contrast Agents &amp; Spatial Encoding</div>
+
+        <div class="lesson-row">
+            <div style="display: flex; align-items: center; gap: 15px;">
+                <img src="img/gd-enhancement.jpg" alt="Gadolinium Enhancement Scan" style="width: 50px; height: 50px; object-fit: cover; border-radius: 4px; border: 1px solid #475569;">
+                <div class="lesson-info">
+                    <h4>Lesson 3.1: Gadolinium Contrast (T1 Shortening)</h4>
+                    <p>How paramagnetic contrast agents enhance vascular structures and breakdown of the blood-brain barrier.</p>
+                </div>
+            </div>
+            <span class="card-tag">Clinical</span>
+        </div>
+
+        <div class="lesson-row">
+            <div style="display: flex; align-items: center; gap: 15px;">
+                <img src="img/quiz-dwi.jpg" alt="K-Space Preview" style="width: 50px; height: 50px; object-fit: cover; border-radius: 4px; border: 1px solid #475569;">
+                <div class="lesson-info">
+                    <h4>Lesson 3.2: Understanding K-Space &amp; Fourier Transform</h4>
+                    <p>Spatial frequency raw data: center represents contrast, periphery represents edge detail.</p>
+                </div>
+            </div>
+            <span class="card-tag">Physics</span>
+        </div>
+
+        <!-- Module 4 -->
+        <div class="module-header">Module 4: Safety &amp; Image Artifacts</div>
+
+        <div class="lesson-row">
+            <div style="display: flex; align-items: center; gap: 15px;">
+                <img src="img/artifact-motion.jpg" alt="Motion Artifact Scan" style="width: 50px; height: 50px; object-fit: cover; border-radius: 4px; border: 1px solid #475569;">
+                <div class="lesson-info">
+                    <h4>Lesson 4.1: Patient Motion &amp; Physiological Ghosting</h4>
+                    <p>Recognizing motion artifacts and using BLADE/PROPELLER or gating to fix them.</p>
+                </div>
+            </div>
+            <span class="card-tag">Troubleshooting</span>
+        </div>
+
+        <div class="lesson-row">
+            <div style="display: flex; align-items: center; gap: 15px;">
+                <img src="img/artifact-chemical-shift.jpg" alt="Chemical Shift Scan" style="width: 50px; height: 50px; object-fit: cover; border-radius: 4px; border: 1px solid #475569;">
+                <div class="lesson-info">
+                    <h4>Lesson 4.2: Chemical Shift &amp; Susceptibility</h4>
+                    <p>Fat-water boundary phase differences, frequency displacement, and bandwidth compensation.</p>
+                </div>
+            </div>
+            <span class="card-tag">Troubleshooting</span>
+        </div>
+
+    </div>
+
+    <!-- Simple Footer -->
+    <footer>
+        <p>&copy; 2026 MRI Simulator Project. Basic HTML &amp; CSS Learning Edition.</p>
+        <p>
+            <a href="index.html">Home</a> |
+            <a href="courses.html">Courses</a> |
+            <a href="quiz.html">Quiz</a> |
+            <a href="reference.html">Reference</a>
+        </p>
+    </footer>
+
+</body>
+</html>
