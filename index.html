@@ -1,205 +1,272 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MRI Simulator — Home</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fable-5 — Home</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header>
-        <div class="header-container">
-            <a href="index.html" class="logo">
-                <img src="img/logo.svg" alt="MRI Simulator Logo" class="header-logo">
-                <span>MRI</span>Sim
-            </a>
-            <nav>
-                <a href="index.html" class="active">Home</a>
-                <a href="courses.html">Courses</a>
-                <a href="quiz.html">Quiz</a>
-                <a href="reference.html">Reference</a>
-            </nav>
-        </div>
+      <div class="header-container">
+        <a href="index.html" class="logo">
+          <img src="img/logo.svg" alt="Fable-5 Logo" class="header-logo" />
+          <span>Fable</span>-5
+        </a>
+        <nav>
+          <a href="index.html" class="active">Home</a>
+          <a href="courses.html">Courses</a>
+          <a href="quiz.html">Quiz</a>
+          <a href="reference.html">Reference</a>
+        </nav>
+      </div>
     </header>
 
     <div class="container">
-
-        <section class="hero">
-            <div class="hero-grid">
-                <div class="hero-text">
-                    <span class="card-tag">Interactive Physics Platform</span>
-                    <h1>From Spins to Image: Interactive MRI Physics</h1>
-                    <p>
-                        A web-based learning platform for MRI physics, sequence weighting, image reconstruction, and protocol planning. Learn how RF pulses and magnetic gradients transform water protons into clinical diagnostic images.
-                    </p>
-                    <div>
-                        <a href="courses.html" class="btn btn-primary">Start Guided Courses</a>
-                        <a href="quiz.html" class="btn btn-secondary">Take Practice Quiz</a>
-                    </div>
-
-                    <div class="stats-row">
-                        <div class="stat-box">
-                            <div class="stat-number">13</div>
-                            <div class="stat-label">Pulse Sequences</div>
-                        </div>
-                        <div class="stat-box">
-                            <div class="stat-number">6</div>
-                            <div class="stat-label">Real Anatomies</div>
-                        </div>
-                        <div class="stat-box">
-                            <div class="stat-number">1.5T &amp; 3T</div>
-                            <div class="stat-label">Calibrated Field Strengths</div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="hero-image-wrap">
-                    <img src="img/contrast-t1-pd-t2.jpg" alt="Clinical MRI Contrast Comparison: T1, PD, and T2" class="hero-img">
-                    <div class="image-caption">Clinical Scan: T1, Proton Density (PD), and T2-Weighted Contrast Comparison</div>
-                </div>
-            </div>
-        </section>
-
-        <section>
-            <h2>Explore MRI Modules</h2>
-            <p>Select a learning path to practice MRI scanning and physics principles:</p>
-
-            <div class="grid">
-                <div class="card">
-                    <img src="img/brain_axial.jpg" alt="Brain Axial Scan in MRI Simulator" class="card-img">
-                    <span class="card-tag">Physics Engine</span>
-                    <h3>MRI Simulator</h3>
-                    <p>
-                        Adjust TR, TE, TI, and flip angle parameters. Observe how k-space lines fill and how image contrast changes immediately.
-                    </p>
-                    <a href="courses.html" class="btn btn-secondary">Learn Simulator Basics</a>
-                </div>
-
-                <div class="card">
-                    <img src="img/spine_sagittal.jpg" alt="Spine Sagittal Scan Protocol Planner" class="card-img">
-                    <span class="card-tag">Console Practice</span>
-                    <h3>Protocol Planner</h3>
-                    <p>
-                        Work like a clinical MRI technologist: prescribe slices on 3-plane scouts (Axial, Sagittal, Coronal) and configure acquisition queues.
-                    </p>
-                    <a href="courses.html" class="btn btn-secondary">View Protocols</a>
-                </div>
-
-                <div class="card">
-                    <img src="img/quiz-t1.jpg" alt="Read the Scan Quiz Sample" class="card-img">
-                    <span class="card-tag">Self Assessment</span>
-                    <h3>Read-the-Scan Quiz</h3>
-                    <p>
-                        Test your diagnostic and physics skills. Identify sequence types, image weighting (T1, T2, PD), and common artifacts.
-                    </p>
-                    <a href="quiz.html" class="btn btn-primary">Start Quiz</a>
-                </div>
-
-                <div class="card">
-                    <img src="img/lesson-what-is-mri.jpg" alt="Guided MRI Lessons" class="card-img">
-                    <span class="card-tag">Structured Learning</span>
-                    <h3>Guided Courses</h3>
-                    <p>
-                        Follow a step-by-step curriculum from basic magnetic resonance principles up to advanced clinical pulse sequences and safety.
-                    </p>
-                    <a href="courses.html" class="btn btn-primary">Browse Lessons</a>
-                </div>
-            </div>
-        </section>
-
-        <section>
-            <h2>Clinical Imaging Planes &amp; Anatomies</h2>
-            <p>MRI acquisition allows direct multi-planar slicing without moving the patient:</p>
-
-            <div class="grid">
-                <div class="card" style="text-align: center;">
-                    <img src="img/brain_axial.jpg" alt="Axial Brain MRI" class="card-img" style="height: 220px; object-fit: contain; background: #000;">
-                    <h3>Brain (Axial Plane)</h3>
-                    <p style="font-size: 13px; color: #94a3b8;">Standard head protocol showing ventricles, cortical grey matter, and white matter tracks.</p>
-                </div>
-                <div class="card" style="text-align: center;">
-                    <img src="img/spine_sagittal.jpg" alt="Sagittal Spine MRI" class="card-img" style="height: 220px; object-fit: contain; background: #000;">
-                    <h3>Spine (Sagittal Plane)</h3>
-                    <p style="font-size: 13px; color: #94a3b8;">Vertebral bodies, intervertebral discs, and spinal cord canal evaluation.</p>
-                </div>
-                <div class="card" style="text-align: center;">
-                    <img src="img/knee_sagittal.jpg" alt="Sagittal Knee MRI" class="card-img" style="height: 220px; object-fit: contain; background: #000;">
-                    <h3>Knee (Sagittal Plane)</h3>
-                    <p style="font-size: 13px; color: #94a3b8;">Evaluation of anterior cruciate ligament (ACL), meniscus, and articular cartilage.</p>
-                </div>
-            </div>
-        </section>
-
-        <section>
-            <h2>MRI Contrast Quick Guide</h2>
+      <section class="hero">
+        <div class="hero-grid">
+          <div class="hero-text">
+            <span class="card-tag">Interactive Physics Platform</span>
+            <h1>From Spins to Image: Interactive MRI Physics</h1>
             <p>
-                Image contrast in MRI depends on the timing of RF pulses and signal readouts. Here is a basic overview of how tissues appear across standard weightings:
+              A web-based learning platform for MRI physics, sequence weighting,
+              image reconstruction, and protocol planning. Learn how RF pulses
+              and magnetic gradients transform water protons into clinical
+              diagnostic images.
             </p>
+            <div>
+              <a href="courses.html" class="btn btn-primary"
+                >Start Guided Courses</a
+              >
+              <a href="quiz.html" class="btn btn-secondary"
+                >Take Practice Quiz</a
+              >
+            </div>
 
-            <table>
-                <thead>
-                    <tr>
-                        <th>Tissue Type</th>
-                        <th>T1-Weighted (Short TR, Short TE)</th>
-                        <th>T2-Weighted (Long TR, Long TE)</th>
-                        <th>Proton Density (Long TR, Short TE)</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td><strong>Fat</strong></td>
-                        <td>Bright (High signal)</td>
-                        <td>Intermediate / Bright</td>
-                        <td>Bright</td>
-                    </tr>
-                    <tr>
-                        <td><strong>Water / CSF</strong></td>
-                        <td>Dark (Low signal)</td>
-                        <td>Very Bright (High signal)</td>
-                        <td>Intermediate / Dark</td>
-                    </tr>
-                    <tr>
-                        <td><strong>White Matter</strong></td>
-                        <td>Bright (Light gray)</td>
-                        <td>Dark (Dark gray)</td>
-                        <td>Dark gray</td>
-                    </tr>
-                    <tr>
-                        <td><strong>Gray Matter</strong></td>
-                        <td>Dark (Medium gray)</td>
-                        <td>Bright (Light gray)</td>
-                        <td>Light gray</td>
-                    </tr>
-                    <tr>
-                        <td><strong>Bone / Air</strong></td>
-                        <td>Dark (Signal void)</td>
-                        <td>Dark (Signal void)</td>
-                        <td>Dark (Signal void)</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
+            <div class="stats-row">
+              <div class="stat-box">
+                <div class="stat-number">13</div>
+                <div class="stat-label">Pulse Sequences</div>
+              </div>
+              <div class="stat-box">
+                <div class="stat-number">6</div>
+                <div class="stat-label">Real Anatomies</div>
+              </div>
+              <div class="stat-box">
+                <div class="stat-number">1.5T &amp; 3T</div>
+                <div class="stat-label">Calibrated Field Strengths</div>
+              </div>
+            </div>
+          </div>
 
-        <section class="hero" style="margin-top: 30px;">
-            <h2>Need a quick answer?</h2>
+          <div class="hero-image-wrap">
+            <img
+              src="img/contrast-t1-pd-t2.jpg"
+              alt="Clinical MRI Contrast Comparison: T1, PD, and T2"
+              class="hero-img"
+            />
+            <div class="image-caption">
+              Clinical Scan: T1, Proton Density (PD), and T2-Weighted Contrast
+              Comparison
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Explore MRI Modules</h2>
+        <p>
+          Select a learning path to practice MRI scanning and physics
+          principles:
+        </p>
+
+        <div class="grid">
+          <div class="card">
+            <img
+              src="img/brain_axial.jpg"
+              alt="Brain Axial Scan in MRI Simulator"
+              class="card-img"
+            />
+            <span class="card-tag">Physics Engine</span>
+            <h3>MRI Simulator</h3>
             <p>
-                Check our comprehensive MRI Reference Library for explanations of technical terms, sequence equations, artifacts, and safety guidelines.
+              Adjust TR, TE, TI, and flip angle parameters. Observe how k-space
+              lines fill and how image contrast changes immediately.
             </p>
-            <a href="reference.html" class="btn btn-secondary">Open Reference Library →</a>
-        </section>
+            <a href="courses.html" class="btn btn-secondary"
+              >Learn Simulator Basics</a
+            >
+          </div>
 
+          <div class="card">
+            <img
+              src="img/spine_sagittal.jpg"
+              alt="Spine Sagittal Scan Protocol Planner"
+              class="card-img"
+            />
+            <span class="card-tag">Console Practice</span>
+            <h3>Protocol Planner</h3>
+            <p>
+              Work like a clinical MRI technologist: prescribe slices on 3-plane
+              scouts (Axial, Sagittal, Coronal) and configure acquisition
+              queues.
+            </p>
+            <a href="courses.html" class="btn btn-secondary">View Protocols</a>
+          </div>
+
+          <div class="card">
+            <img
+              src="img/quiz-t1.jpg"
+              alt="Read the Scan Quiz Sample"
+              class="card-img"
+            />
+            <span class="card-tag">Self Assessment</span>
+            <h3>Read-the-Scan Quiz</h3>
+            <p>
+              Test your diagnostic and physics skills. Identify sequence types,
+              image weighting (T1, T2, PD), and common artifacts.
+            </p>
+            <a href="quiz.html" class="btn btn-primary">Start Quiz</a>
+          </div>
+
+          <div class="card">
+            <img
+              src="img/lesson-what-is-mri.jpg"
+              alt="Guided MRI Lessons"
+              class="card-img"
+            />
+            <span class="card-tag">Structured Learning</span>
+            <h3>Guided Courses</h3>
+            <p>
+              Follow a step-by-step curriculum from basic magnetic resonance
+              principles up to advanced clinical pulse sequences and safety.
+            </p>
+            <a href="courses.html" class="btn btn-primary">Browse Lessons</a>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Clinical Imaging Planes &amp; Anatomies</h2>
+        <p>
+          MRI acquisition allows direct multi-planar slicing without moving the
+          patient:
+        </p>
+
+        <div class="grid">
+          <div class="card" style="text-align: center">
+            <img
+              src="img/brain_axial.jpg"
+              alt="Axial Brain MRI"
+              class="card-img"
+              style="height: 220px; object-fit: contain; background: #000"
+            />
+            <h3>Brain (Axial Plane)</h3>
+            <p style="font-size: 13px; color: #94a3b8">
+              Standard head protocol showing ventricles, cortical grey matter,
+              and white matter tracks.
+            </p>
+          </div>
+          <div class="card" style="text-align: center">
+            <img
+              src="img/spine_sagittal.jpg"
+              alt="Sagittal Spine MRI"
+              class="card-img"
+              style="height: 220px; object-fit: contain; background: #000"
+            />
+            <h3>Spine (Sagittal Plane)</h3>
+            <p style="font-size: 13px; color: #94a3b8">
+              Vertebral bodies, intervertebral discs, and spinal cord canal
+              evaluation.
+            </p>
+          </div>
+          <div class="card" style="text-align: center">
+            <img
+              src="img/knee_sagittal.jpg"
+              alt="Sagittal Knee MRI"
+              class="card-img"
+              style="height: 220px; object-fit: contain; background: #000"
+            />
+            <h3>Knee (Sagittal Plane)</h3>
+            <p style="font-size: 13px; color: #94a3b8">
+              Evaluation of anterior cruciate ligament (ACL), meniscus, and
+              articular cartilage.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>MRI Contrast Quick Guide</h2>
+        <p>
+          Image contrast in MRI depends on the timing of RF pulses and signal
+          readouts. Here is a basic overview of how tissues appear across
+          standard weightings:
+        </p>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Tissue Type</th>
+              <th>T1-Weighted (Short TR, Short TE)</th>
+              <th>T2-Weighted (Long TR, Long TE)</th>
+              <th>Proton Density (Long TR, Short TE)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Fat</strong></td>
+              <td>Bright (High signal)</td>
+              <td>Intermediate / Bright</td>
+              <td>Bright</td>
+            </tr>
+            <tr>
+              <td><strong>Water / CSF</strong></td>
+              <td>Dark (Low signal)</td>
+              <td>Very Bright (High signal)</td>
+              <td>Intermediate / Dark</td>
+            </tr>
+            <tr>
+              <td><strong>White Matter</strong></td>
+              <td>Bright (Light gray)</td>
+              <td>Dark (Dark gray)</td>
+              <td>Dark gray</td>
+            </tr>
+            <tr>
+              <td><strong>Gray Matter</strong></td>
+              <td>Dark (Medium gray)</td>
+              <td>Bright (Light gray)</td>
+              <td>Light gray</td>
+            </tr>
+            <tr>
+              <td><strong>Bone / Air</strong></td>
+              <td>Dark (Signal void)</td>
+              <td>Dark (Signal void)</td>
+              <td>Dark (Signal void)</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="hero" style="margin-top: 30px">
+        <h2>Need a quick answer?</h2>
+        <p>
+          Check our comprehensive MRI Reference Library for explanations of
+          technical terms, sequence equations, artifacts, and safety guidelines.
+        </p>
+        <a href="reference.html" class="btn btn-secondary"
+          >Open Reference Library →</a
+        >
+      </section>
     </div>
 
     <footer>
-        <p>&copy; 2026 MRI Simulator Project. Basic HTML &amp; CSS Learning Edition.</p>
-        <p>
-            <a href="index.html">Home</a> |
-            <a href="courses.html">Courses</a> |
-            <a href="quiz.html">Quiz</a> |
-            <a href="reference.html">Reference</a>
-        </p>
+      <p>&copy; 2026 Fable-5 Project. Basic HTML &amp; CSS Learning Edition.</p>
+      <p>
+        <a href="index.html">Home</a> | <a href="courses.html">Courses</a> |
+        <a href="quiz.html">Quiz</a> |
+        <a href="reference.html">Reference</a>
+      </p>
     </footer>
-
-</body>
+  </body>
 </html>

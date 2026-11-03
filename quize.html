@@ -1,183 +1,268 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MRI Simulator — Quiz</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fable-5 — Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header>
-        <div class="header-container">
-            <a href="index.html" class="logo">
-                <img src="img/logo.svg" alt="MRI Simulator Logo" class="header-logo">
-                <span>MRI</span>Sim
-            </a>
-            <nav>
-                <a href="index.html">Home</a>
-                <a href="courses.html">Courses</a>
-                <a href="quiz.html" class="active">Quiz</a>
-                <a href="reference.html">Reference</a>
-            </nav>
-        </div>
+      <div class="header-container">
+        <a href="index.html" class="logo">
+          <img src="img/logo.svg" alt="Fable-5 Logo" class="header-logo" />
+          <span>Fable</span>-5
+        </a>
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="courses.html">Courses</a>
+          <a href="quiz.html" class="active">Quiz</a>
+          <a href="reference.html">Reference</a>
+        </nav>
+      </div>
     </header>
 
     <div class="container">
+      <h1>Read-the-Scan Quiz</h1>
+      <p>
+        Test your knowledge of MRI scan interpretation, pulse sequence
+        parameters, image contrast, and scanner physics.
+      </p>
 
-        <h1>Read-the-Scan Quiz</h1>
-        <p>
-            Test your knowledge of MRI scan interpretation, pulse sequence parameters, image contrast, and scanner physics.
+      <div class="topic-chips">
+        <a href="#" class="chip active">All Topics</a>
+        <a href="#" class="chip">Sequences &amp; Weighting</a>
+        <a href="#" class="chip">Pathology</a>
+        <a href="#" class="chip">Artifacts</a>
+        <a href="#" class="chip">Anatomy &amp; Planes</a>
+        <a href="#" class="chip">Image Quality</a>
+        <a href="#" class="chip">MR Safety</a>
+      </div>
+
+      <div class="quiz-box">
+        <div
+          style="
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+            border-bottom: 1px solid #334155;
+            padding-bottom: 10px;
+          "
+        >
+          <span style="color: #38bdf8; font-weight: bold; font-size: 14px"
+            >Question 1 of 4 • Sequences &amp; Weighting</span
+          >
+          <span style="color: #94a3b8; font-size: 14px"
+            >Current Score: <strong>1 / 1</strong></span
+          >
+        </div>
+
+        <div class="quiz-scan-container">
+          <img
+            src="img/quiz-t1.jpg"
+            alt="Clinical Brain MRI Scan (T1)"
+            class="quiz-scan-img"
+          />
+          <p style="margin: 0; font-size: 13px; color: #cbd5e1">
+            <strong>Acquisition Parameters:</strong> Spin Echo | TR: 500 ms |
+            TE: 12 ms | Plane: Axial Brain
+          </p>
+          <div class="image-caption">
+            Notice: Fluid in the cerebral ventricles is dark; cerebral white
+            matter is brighter than gray matter.
+          </div>
+        </div>
+
+        <p class="question-title">
+          What is the contrast weighting of this brain scan?
         </p>
 
-        <div class="topic-chips">
-            <a href="#" class="chip active">All Topics</a>
-            <a href="#" class="chip">Sequences &amp; Weighting</a>
-            <a href="#" class="chip">Pathology</a>
-            <a href="#" class="chip">Artifacts</a>
-            <a href="#" class="chip">Anatomy &amp; Planes</a>
-            <a href="#" class="chip">Image Quality</a>
-            <a href="#" class="chip">MR Safety</a>
+        <form>
+          <ul class="options-list">
+            <li>
+              <label>
+                <input type="radio" name="q1" checked />
+                <strong>(A) T1-weighted</strong> — Short TR and short TE produce
+                bright fat/white matter and dark fluid.
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q1" />
+                <strong>(B) T2-weighted</strong> — Long TR and long TE produce
+                bright fluid.
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q1" />
+                <strong>(C) Proton Density (PD)</strong> — Long TR and short TE
+                minimize both T1 and T2 effects.
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q1" />
+                <strong>(D) Diffusion Weighted (DWI)</strong> — Measures random
+                Brownian motion of water molecules.
+              </label>
+            </li>
+          </ul>
+
+          <button type="button" class="btn btn-primary">Check Answer</button>
+          <button type="button" class="btn btn-secondary">
+            Next Question →
+          </button>
+        </form>
+
+        <div class="explanation-box">
+          <strong style="color: #38bdf8"
+            >Correct Answer: (A) T1-weighted</strong
+          >
+          <p style="margin-top: 6px; margin-bottom: 0">
+            Short TR (500 ms) limits longitudinal relaxation so tissues with
+            fast recovery (fat/white matter) are bright, while short TE (12 ms)
+            minimizes transverse decay so fluid (CSF) remains dark.
+          </p>
+        </div>
+      </div>
+
+      <h2>More Practice Questions</h2>
+
+      <div class="quiz-box">
+        <span class="card-tag">Question 2 • Inversion Recovery</span>
+        <p class="question-title">
+          Fluid-Attenuated Inversion Recovery (FLAIR)
+        </p>
+
+        <div class="quiz-scan-container">
+          <img
+            src="img/quiz-flair.jpg"
+            alt="FLAIR Brain MRI Scan"
+            class="quiz-scan-img"
+          />
+          <div class="image-caption">
+            Scan Readout: Inversion Time (TI) = 2500 ms, TR = 9000 ms, TE = 100
+            ms
+          </div>
         </div>
 
-        <div class="quiz-box">
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; border-bottom: 1px solid #334155; padding-bottom: 10px;">
-                <span style="color: #38bdf8; font-weight: bold; font-size: 14px;">Question 1 of 4 • Sequences &amp; Weighting</span>
-                <span style="color: #94a3b8; font-size: 14px;">Current Score: <strong>1 / 1</strong></span>
-            </div>
+        <p>
+          <strong>Question:</strong> An MRI brain scan uses a long TR (9000 ms),
+          long TE (100 ms), and an Inversion Time (TI) of 2500 ms. The
+          ventricles (CSF) appear dark, but lesions in the periventricular white
+          matter appear bright. What sequence is this?
+        </p>
+        <ul class="options-list">
+          <li><strong>A)</strong> T1-weighted Spin Echo</li>
+          <li>
+            <strong>B)</strong> FLAIR (Fluid-Attenuated Inversion Recovery) —
+            <em>(Correct)</em>
+          </li>
+          <li><strong>C)</strong> STIR (Short Tau Inversion Recovery)</li>
+          <li><strong>D)</strong> Gradient Recalled Echo (GRE)</li>
+        </ul>
+        <div class="explanation-box">
+          <strong>Why?</strong> FLAIR uses an inversion pulse with an inversion
+          time (TI) chosen to null the signal of free fluid (CSF). Because TR
+          and TE are long, pathology remains bright against dark fluid.
+        </div>
+      </div>
 
-            <div class="quiz-scan-container">
-                <img src="img/quiz-t1.jpg" alt="Clinical Brain MRI Scan (T1)" class="quiz-scan-img">
-                <p style="margin: 0; font-size: 13px; color: #cbd5e1;">
-                    <strong>Acquisition Parameters:</strong> Spin Echo | TR: 500 ms | TE: 12 ms | Plane: Axial Brain
-                </p>
-                <div class="image-caption">Notice: Fluid in the cerebral ventricles is dark; cerebral white matter is brighter than gray matter.</div>
-            </div>
+      <div class="quiz-box">
+        <span class="card-tag">Question 3 • Stroke &amp; Diffusion</span>
+        <p class="question-title">Acute Infarction &amp; Diffusion Weighting</p>
 
-            <p class="question-title">What is the contrast weighting of this brain scan?</p>
-
-            <form>
-                <ul class="options-list">
-                    <li>
-                        <label>
-                            <input type="radio" name="q1" checked>
-                            <strong>(A) T1-weighted</strong> — Short TR and short TE produce bright fat/white matter and dark fluid.
-                        </label>
-                    </li>
-                    <li>
-                        <label>
-                            <input type="radio" name="q1">
-                            <strong>(B) T2-weighted</strong> — Long TR and long TE produce bright fluid.
-                        </label>
-                    </li>
-                    <li>
-                        <label>
-                            <input type="radio" name="q1">
-                            <strong>(C) Proton Density (PD)</strong> — Long TR and short TE minimize both T1 and T2 effects.
-                        </label>
-                    </li>
-                    <li>
-                        <label>
-                            <input type="radio" name="q1">
-                            <strong>(D) Diffusion Weighted (DWI)</strong> — Measures random Brownian motion of water molecules.
-                        </label>
-                    </li>
-                </ul>
-
-                <button type="button" class="btn btn-primary">Check Answer</button>
-                <button type="button" class="btn btn-secondary">Next Question →</button>
-            </form>
-
-            <div class="explanation-box">
-                <strong style="color: #38bdf8;">Correct Answer: (A) T1-weighted</strong>
-                <p style="margin-top: 6px; margin-bottom: 0;">
-                    Short TR (500 ms) limits longitudinal relaxation so tissues with fast recovery (fat/white matter) are bright, while short TE (12 ms) minimizes transverse decay so fluid (CSF) remains dark.
-                </p>
-            </div>
+        <div class="quiz-scan-container">
+          <img
+            src="img/quiz-dwi.jpg"
+            alt="DWI Brain Scan"
+            class="quiz-scan-img"
+          />
+          <div class="image-caption">
+            Scan Readout: b = 1000 s/mm² • Hyperintense region indicating
+            restricted water diffusion.
+          </div>
         </div>
 
-        <h2>More Practice Questions</h2>
+        <p>
+          <strong>Question:</strong> This ultrafast sequence uses strong bipolar
+          diffusion gradients to detect cytotoxic edema and acute stroke within
+          minutes of symptom onset. What imaging technique is shown?
+        </p>
+        <ul class="options-list">
+          <li>
+            <strong>A)</strong> Diffusion Weighted Imaging (DWI) —
+            <em>(Correct)</em>
+          </li>
+          <li><strong>B)</strong> Proton Density weighted Fast Spin Echo</li>
+          <li><strong>C)</strong> Susceptibility Weighted Imaging (SWI)</li>
+          <li><strong>D)</strong> Time of Flight (TOF) Angiography</li>
+        </ul>
+        <div class="explanation-box">
+          <strong>Why?</strong> DWI sensitizes the MRI signal to the microscopic
+          Brownian motion of water molecules. In acute cellular ischemia,
+          cellular swelling restricts water movement, producing brilliant bright
+          signal.
+        </div>
+      </div>
 
-        <div class="quiz-box">
-            <span class="card-tag">Question 2 • Inversion Recovery</span>
-            <p class="question-title">Fluid-Attenuated Inversion Recovery (FLAIR)</p>
+      <div class="quiz-box">
+        <span class="card-tag">Question 4 • Quality &amp; Artifacts</span>
+        <p class="question-title">Artifact Identification</p>
 
-            <div class="quiz-scan-container">
-                <img src="img/quiz-flair.jpg" alt="FLAIR Brain MRI Scan" class="quiz-scan-img">
-                <div class="image-caption">Scan Readout: Inversion Time (TI) = 2500 ms, TR = 9000 ms, TE = 100 ms</div>
-            </div>
-
-            <p>
-                <strong>Question:</strong> An MRI brain scan uses a long TR (9000 ms), long TE (100 ms), and an Inversion Time (TI) of 2500 ms. The ventricles (CSF) appear dark, but lesions in the periventricular white matter appear bright. What sequence is this?
-            </p>
-            <ul class="options-list">
-                <li><strong>A)</strong> T1-weighted Spin Echo</li>
-                <li><strong>B)</strong> FLAIR (Fluid-Attenuated Inversion Recovery) — <em>(Correct)</em></li>
-                <li><strong>C)</strong> STIR (Short Tau Inversion Recovery)</li>
-                <li><strong>D)</strong> Gradient Recalled Echo (GRE)</li>
-            </ul>
-            <div class="explanation-box">
-                <strong>Why?</strong> FLAIR uses an inversion pulse with an inversion time (TI) chosen to null the signal of free fluid (CSF). Because TR and TE are long, pathology remains bright against dark fluid.
-            </div>
+        <div class="quiz-scan-container">
+          <img
+            src="img/artifact-motion.jpg"
+            alt="MRI Motion Artifact Scan"
+            class="quiz-scan-img"
+          />
+          <div class="image-caption">
+            Scan Readout: Repetitive ghosting patterns propagating across the
+            image.
+          </div>
         </div>
 
-        <div class="quiz-box">
-            <span class="card-tag">Question 3 • Stroke &amp; Diffusion</span>
-            <p class="question-title">Acute Infarction &amp; Diffusion Weighting</p>
-
-            <div class="quiz-scan-container">
-                <img src="img/quiz-dwi.jpg" alt="DWI Brain Scan" class="quiz-scan-img">
-                <div class="image-caption">Scan Readout: b = 1000 s/mm² • Hyperintense region indicating restricted water diffusion.</div>
-            </div>
-
-            <p>
-                <strong>Question:</strong> This ultrafast sequence uses strong bipolar diffusion gradients to detect cytotoxic edema and acute stroke within minutes of symptom onset. What imaging technique is shown?
-            </p>
-            <ul class="options-list">
-                <li><strong>A)</strong> Diffusion Weighted Imaging (DWI) — <em>(Correct)</em></li>
-                <li><strong>B)</strong> Proton Density weighted Fast Spin Echo</li>
-                <li><strong>C)</strong> Susceptibility Weighted Imaging (SWI)</li>
-                <li><strong>D)</strong> Time of Flight (TOF) Angiography</li>
-            </ul>
-            <div class="explanation-box">
-                <strong>Why?</strong> DWI sensitizes the MRI signal to the microscopic Brownian motion of water molecules. In acute cellular ischemia, cellular swelling restricts water movement, producing brilliant bright signal.
-            </div>
+        <p>
+          <strong>Question:</strong> Notice the repeating ghost copies of the
+          skull propagating across the phase encoding direction. What artifact
+          is occurring and what is the primary cause?
+        </p>
+        <ul class="options-list">
+          <li>
+            <strong>A)</strong> Chemical Shift Artifact caused by water-fat
+            frequency difference
+          </li>
+          <li>
+            <strong>B)</strong> Motion / Ghosting Artifact caused by patient
+            movement or arterial pulsation — <em>(Correct)</em>
+          </li>
+          <li>
+            <strong>C)</strong> Aliasing (Wrap-around) caused by too small a
+            field of view
+          </li>
+          <li>
+            <strong>D)</strong> Gibbs Truncation Ringing caused by low matrix
+            resolution
+          </li>
+        </ul>
+        <div class="explanation-box">
+          <strong>Why?</strong> Patient movement (blinking, swallowing,
+          breathing, or vascular pulsation) introduces phase errors between
+          successive phase-encoding steps, projecting ghost artifacts along the
+          phase-encoding axis.
         </div>
-
-        <div class="quiz-box">
-            <span class="card-tag">Question 4 • Quality &amp; Artifacts</span>
-            <p class="question-title">Artifact Identification</p>
-
-            <div class="quiz-scan-container">
-                <img src="img/artifact-motion.jpg" alt="MRI Motion Artifact Scan" class="quiz-scan-img">
-                <div class="image-caption">Scan Readout: Repetitive ghosting patterns propagating across the image.</div>
-            </div>
-
-            <p>
-                <strong>Question:</strong> Notice the repeating ghost copies of the skull propagating across the phase encoding direction. What artifact is occurring and what is the primary cause?
-            </p>
-            <ul class="options-list">
-                <li><strong>A)</strong> Chemical Shift Artifact caused by water-fat frequency difference</li>
-                <li><strong>B)</strong> Motion / Ghosting Artifact caused by patient movement or arterial pulsation — <em>(Correct)</em></li>
-                <li><strong>C)</strong> Aliasing (Wrap-around) caused by too small a field of view</li>
-                <li><strong>D)</strong> Gibbs Truncation Ringing caused by low matrix resolution</li>
-            </ul>
-            <div class="explanation-box">
-                <strong>Why?</strong> Patient movement (blinking, swallowing, breathing, or vascular pulsation) introduces phase errors between successive phase-encoding steps, projecting ghost artifacts along the phase-encoding axis.
-            </div>
-        </div>
-
+      </div>
     </div>
 
     <footer>
-        <p>&copy; 2026 MRI Simulator Project. Basic HTML &amp; CSS Learning Edition.</p>
-        <p>
-            <a href="index.html">Home</a> |
-            <a href="courses.html">Courses</a> |
-            <a href="quiz.html">Quiz</a> |
-            <a href="reference.html">Reference</a>
-        </p>
+      <p>&copy; 2026 Fable-5 Project. Basic HTML &amp; CSS Learning Edition.</p>
+      <p>
+        <a href="index.html">Home</a> | <a href="courses.html">Courses</a> |
+        <a href="quiz.html">Quiz</a> |
+        <a href="reference.html">Reference</a>
+      </p>
     </footer>
-
-</body>
+  </body>
 </html>

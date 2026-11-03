@@ -1,168 +1,295 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MRI Simulator — Reference Library</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fable-5 — Reference Library</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header>
-        <div class="header-container">
-            <a href="index.html" class="logo">
-                <img src="img/logo.svg" alt="MRI Simulator Logo" class="header-logo">
-                <span>MRI</span>Sim
-            </a>
-            <nav>
-                <a href="index.html">Home</a>
-                <a href="courses.html">Courses</a>
-                <a href="quiz.html">Quiz</a>
-                <a href="reference.html" class="active">Reference</a>
-            </nav>
-        </div>
+      <div class="header-container">
+        <a href="index.html" class="logo">
+          <img src="img/logo.svg" alt="Fable-5 Logo" class="header-logo" />
+          <span>Fable</span>-5
+        </a>
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="courses.html">Courses</a>
+          <a href="quiz.html">Quiz</a>
+          <a href="reference.html" class="active">Reference</a>
+        </nav>
+      </div>
     </header>
 
     <div class="container">
+      <h1>MRI Reference Library</h1>
+      <p>
+        A quick-lookup handbook and reference guide for MRI physics formulas,
+        sequence characteristics, tissue relaxation properties, and scanner
+        safety standards.
+      </p>
 
-        <h1>MRI Reference Library</h1>
-        <p>
-            A quick-lookup handbook and reference guide for MRI physics formulas, sequence characteristics, tissue relaxation properties, and scanner safety standards.
-        </p>
+      <input
+        type="text"
+        class="search-box"
+        placeholder="Search reference entries (e.g. T1, FLAIR, SAR, Chemical Shift)..."
+      />
 
-        <input type="text" class="search-box" placeholder="Search reference entries (e.g. T1, FLAIR, SAR, Chemical Shift)...">
+      <div class="ref-layout">
+        <aside class="ref-sidebar">
+          <div class="card">
+            <h3 style="margin-bottom: 12px; font-size: 16px">Topics</h3>
+            <ul class="ref-sidebar-list">
+              <li><a href="#" class="active">All Topics (6)</a></li>
+              <li><a href="#">Contrast &amp; Weighting</a></li>
+              <li><a href="#">Pulse Sequences</a></li>
+              <li><a href="#">Spatial Encoding</a></li>
+              <li><a href="#">Artifacts &amp; Fixes</a></li>
+              <li><a href="#">MR Safety &amp; SAR</a></li>
+            </ul>
+          </div>
 
-        <div class="ref-layout">
+          <div class="card" style="margin-top: 15px">
+            <h3 style="margin-bottom: 10px; font-size: 15px">
+              Field Strengths
+            </h3>
+            <p style="font-size: 13px; margin: 0; color: #94a3b8">
+              Hydrogen Larmor frequency:<br />
+              <strong>1.5 Tesla:</strong> ~63.86 MHz<br />
+              <strong>3.0 Tesla:</strong> ~127.73 MHz
+            </p>
+          </div>
+        </aside>
 
-            <aside class="ref-sidebar">
-                <div class="card">
-                    <h3 style="margin-bottom: 12px; font-size: 16px;">Topics</h3>
-                    <ul class="ref-sidebar-list">
-                        <li><a href="#" class="active">All Topics (6)</a></li>
-                        <li><a href="#">Contrast &amp; Weighting</a></li>
-                        <li><a href="#">Pulse Sequences</a></li>
-                        <li><a href="#">Spatial Encoding</a></li>
-                        <li><a href="#">Artifacts &amp; Fixes</a></li>
-                        <li><a href="#">MR Safety &amp; SAR</a></li>
-                    </ul>
-                </div>
+        <main class="ref-content">
+          <div class="ref-item">
+            <span class="card-tag">Contrast &amp; Weighting</span>
+            <h3>What makes an image T1-weighted?</h3>
+            <p>
+              T1 weighting comes from a <strong>short TR</strong> and a
+              <strong>short TE</strong>. A short TR does not give tissues time
+              to fully recover their longitudinal magnetization along the main
+              magnetic field. Consequently, tissues with short T1 relaxation
+              times (such as fat) recover more longitudinal signal and appear
+              bright, while tissues with long T1 (such as water and CSF) stay
+              dark. The short TE keeps transverse T2 differences from dominating
+              the image.
+            </p>
+            <img
+              src="img/quiz-t1.jpg"
+              alt="T1 Weighted Brain MRI Scan"
+              class="ref-thumb"
+            />
+            <div class="image-caption">
+              Figure 1: Axial T1 brain scan demonstrating dark ventricular fluid
+              and bright white matter.
+            </div>
+            <ul class="keypoints-list">
+              <li>
+                <strong>Parameters:</strong> Short TR (300–600 ms) and Short TE
+                (10–25 ms).
+              </li>
+              <li>
+                <strong>Appearance:</strong> Fat is bright, white matter is
+                bright, gray matter is intermediate, CSF/fluid is dark.
+              </li>
+              <li>
+                <strong>Clinical Use:</strong> Excellent for anatomical detail
+                and post-contrast gadolinium studies.
+              </li>
+            </ul>
+          </div>
 
-                <div class="card" style="margin-top: 15px;">
-                    <h3 style="margin-bottom: 10px; font-size: 15px;">Field Strengths</h3>
-                    <p style="font-size: 13px; margin: 0; color: #94a3b8;">
-                        Hydrogen Larmor frequency:<br>
-                        <strong>1.5 Tesla:</strong> ~63.86 MHz<br>
-                        <strong>3.0 Tesla:</strong> ~127.73 MHz
-                    </p>
-                </div>
-            </aside>
+          <div class="ref-item">
+            <span class="card-tag">Contrast &amp; Weighting</span>
+            <h3>Why is fluid bright on a T2-weighted image?</h3>
+            <p>
+              T2 weighting requires a <strong>long TR</strong> and a
+              <strong>long TE</strong>. The long TE allows transverse
+              magnetization to dephase and decay before the echo signal is
+              acquired. Tissues with long T2 relaxation times (such as water,
+              CSF, and edematous fluid) retain their transverse coherence and
+              remain bright, whereas short-T2 tissues decay quickly and appear
+              dark.
+            </p>
+            <img
+              src="img/quiz-t2.jpg"
+              alt="T2 Weighted Brain MRI Scan"
+              class="ref-thumb"
+            />
+            <div class="image-caption">
+              Figure 2: Axial T2 brain scan showing hyperintense (bright white)
+              cerebrospinal fluid.
+            </div>
+            <ul class="keypoints-list">
+              <li>
+                <strong>Parameters:</strong> Long TR (> 2000 ms) and Long TE (>
+                80 ms).
+              </li>
+              <li>
+                <strong>Appearance:</strong> Fluid and CSF are very bright;
+                muscle and cortical bone are dark.
+              </li>
+              <li>
+                <strong>Clinical Use:</strong> Sensitive for detecting
+                pathology, inflammation, edema, and tumors.
+              </li>
+            </ul>
+          </div>
 
-            <main class="ref-content">
+          <div class="ref-item">
+            <span class="card-tag">Pulse Sequences</span>
+            <h3>How does Spin Echo differ from Gradient Echo?</h3>
+            <p>
+              <strong>Spin Echo (SE)</strong> uses an initial 90° RF excitation
+              pulse followed by a 180° RF refocusing pulse. The 180° pulse
+              inverts the dephasing spins, cancelling out fixed static field
+              inhomogeneities and chemical shifts to yield true T2 contrast.<br /><br />
+              <strong>Gradient Echo (GRE)</strong> refocuses transverse
+              magnetization using a bipolar gradient reversal rather than an RF
+              pulse. It typically employs flip angles less than 90°, allowing
+              much shorter TRs and faster scan times, but remains subject to T2*
+              susceptibility dephasing.
+            </p>
+            <img
+              src="img/contrast-t1-pd-t2.jpg"
+              alt="Pulse Sequence Contrast Comparison"
+              class="ref-thumb"
+              style="max-width: 380px"
+            />
+            <div class="image-caption">
+              Figure 3: Spin echo contrast spectrum across differing TR and TE
+              values.
+            </div>
+            <ul class="keypoints-list">
+              <li>
+                <strong>Spin Echo:</strong> Clean true T2 contrast, higher RF
+                energy deposition (higher SAR), longer scan times.
+              </li>
+              <li>
+                <strong>Gradient Echo:</strong> Fast 2D/3D imaging, low SAR,
+                sensitive to hemorrhage and iron deposits (T2*).
+              </li>
+            </ul>
+          </div>
 
-                <div class="ref-item">
-                    <span class="card-tag">Contrast &amp; Weighting</span>
-                    <h3>What makes an image T1-weighted?</h3>
-                    <p>
-                        T1 weighting comes from a <strong>short TR</strong> and a <strong>short TE</strong>. A short TR does not give tissues time to fully recover their longitudinal magnetization along the main magnetic field. Consequently, tissues with short T1 relaxation times (such as fat) recover more longitudinal signal and appear bright, while tissues with long T1 (such as water and CSF) stay dark. The short TE keeps transverse T2 differences from dominating the image.
-                    </p>
-                    <img src="img/quiz-t1.jpg" alt="T1 Weighted Brain MRI Scan" class="ref-thumb">
-                    <div class="image-caption">Figure 1: Axial T1 brain scan demonstrating dark ventricular fluid and bright white matter.</div>
-                    <ul class="keypoints-list">
-                        <li><strong>Parameters:</strong> Short TR (300–600 ms) and Short TE (10–25 ms).</li>
-                        <li><strong>Appearance:</strong> Fat is bright, white matter is bright, gray matter is intermediate, CSF/fluid is dark.</li>
-                        <li><strong>Clinical Use:</strong> Excellent for anatomical detail and post-contrast gadolinium studies.</li>
-                    </ul>
-                </div>
+          <div class="ref-item">
+            <span class="card-tag">Pulse Sequences</span>
+            <h3>What is FLAIR and when is it used?</h3>
+            <p>
+              <strong>FLAIR (Fluid-Attenuated Inversion Recovery)</strong> is an
+              inversion recovery sequence designed to suppress the high signal
+              of cerebrospinal fluid (CSF) while maintaining heavy T2 weighting
+              in brain tissue. By setting the Inversion Time (TI) to match the
+              zero-crossing null point of CSF (approx. 2000–2500 ms), fluid
+              appears dark, making hyperintense periventricular lesions stand
+              out clearly.
+            </p>
+            <img
+              src="img/quiz-flair.jpg"
+              alt="FLAIR Brain MRI Scan"
+              class="ref-thumb"
+            />
+            <div class="image-caption">
+              Figure 4: FLAIR brain scan with fluid nulled dark, highlighting
+              periventricular white matter lesions.
+            </div>
+            <ul class="keypoints-list">
+              <li>
+                <strong>Key Parameter:</strong> Inversion Time (TI) ~ 2200–2500
+                ms at 1.5T / 3T.
+              </li>
+              <li>
+                <strong>Appearance:</strong> Brain parenchyma displays T2
+                contrast, but ventricles and sulcal CSF are completely dark.
+              </li>
+              <li>
+                <strong>Clinical Value:</strong> Standard of care for diagnosing
+                multiple sclerosis plaques, infarction, and subarachnoid
+                hemorrhage.
+              </li>
+            </ul>
+          </div>
 
-                <div class="ref-item">
-                    <span class="card-tag">Contrast &amp; Weighting</span>
-                    <h3>Why is fluid bright on a T2-weighted image?</h3>
-                    <p>
-                        T2 weighting requires a <strong>long TR</strong> and a <strong>long TE</strong>. The long TE allows transverse magnetization to dephase and decay before the echo signal is acquired. Tissues with long T2 relaxation times (such as water, CSF, and edematous fluid) retain their transverse coherence and remain bright, whereas short-T2 tissues decay quickly and appear dark.
-                    </p>
-                    <img src="img/quiz-t2.jpg" alt="T2 Weighted Brain MRI Scan" class="ref-thumb">
-                    <div class="image-caption">Figure 2: Axial T2 brain scan showing hyperintense (bright white) cerebrospinal fluid.</div>
-                    <ul class="keypoints-list">
-                        <li><strong>Parameters:</strong> Long TR (> 2000 ms) and Long TE (> 80 ms).</li>
-                        <li><strong>Appearance:</strong> Fluid and CSF are very bright; muscle and cortical bone are dark.</li>
-                        <li><strong>Clinical Use:</strong> Sensitive for detecting pathology, inflammation, edema, and tumors.</li>
-                    </ul>
-                </div>
+          <div class="ref-item">
+            <span class="card-tag">Artifacts &amp; Fixes</span>
+            <h3>What is Chemical Shift Artifact?</h3>
+            <p>
+              Chemical shift artifact occurs because hydrogen protons in fat
+              molecules precess at a slightly lower resonant frequency than
+              protons in water molecules (approximately 3.5 parts-per-million
+              difference). When frequency encoding is used to map spatial
+              position, fat tissue is mapped a few pixels away from its true
+              physical location relative to water.
+            </p>
+            <img
+              src="img/artifact-chemical-shift.jpg"
+              alt="Chemical Shift Artifact on MRI"
+              class="ref-thumb"
+            />
+            <div class="image-caption">
+              Figure 5: Chemical shift artifact visible at tissue boundaries
+              along the frequency readout axis.
+            </div>
+            <ul class="keypoints-list">
+              <li>
+                <strong>Visual Manifestation:</strong> A dark boundary on one
+                side of an organ and a bright boundary on the opposite side.
+              </li>
+              <li>
+                <strong>Direction:</strong> Occurs strictly along the
+                Frequency-Encoding axis (never along phase encoding).
+              </li>
+              <li>
+                <strong>Remedy:</strong> Increase receiver bandwidth (Hz/pixel)
+                or apply fat saturation techniques.
+              </li>
+            </ul>
+          </div>
 
-                <div class="ref-item">
-                    <span class="card-tag">Pulse Sequences</span>
-                    <h3>How does Spin Echo differ from Gradient Echo?</h3>
-                    <p>
-                        <strong>Spin Echo (SE)</strong> uses an initial 90° RF excitation pulse followed by a 180° RF refocusing pulse. The 180° pulse inverts the dephasing spins, cancelling out fixed static field inhomogeneities and chemical shifts to yield true T2 contrast.<br><br>
-                        <strong>Gradient Echo (GRE)</strong> refocuses transverse magnetization using a bipolar gradient reversal rather than an RF pulse. It typically employs flip angles less than 90°, allowing much shorter TRs and faster scan times, but remains subject to T2* susceptibility dephasing.
-                    </p>
-                    <img src="img/contrast-t1-pd-t2.jpg" alt="Pulse Sequence Contrast Comparison" class="ref-thumb" style="max-width: 380px;">
-                    <div class="image-caption">Figure 3: Spin echo contrast spectrum across differing TR and TE values.</div>
-                    <ul class="keypoints-list">
-                        <li><strong>Spin Echo:</strong> Clean true T2 contrast, higher RF energy deposition (higher SAR), longer scan times.</li>
-                        <li><strong>Gradient Echo:</strong> Fast 2D/3D imaging, low SAR, sensitive to hemorrhage and iron deposits (T2*).</li>
-                    </ul>
-                </div>
-
-                <div class="ref-item">
-                    <span class="card-tag">Pulse Sequences</span>
-                    <h3>What is FLAIR and when is it used?</h3>
-                    <p>
-                        <strong>FLAIR (Fluid-Attenuated Inversion Recovery)</strong> is an inversion recovery sequence designed to suppress the high signal of cerebrospinal fluid (CSF) while maintaining heavy T2 weighting in brain tissue. By setting the Inversion Time (TI) to match the zero-crossing null point of CSF (approx. 2000–2500 ms), fluid appears dark, making hyperintense periventricular lesions stand out clearly.
-                    </p>
-                    <img src="img/quiz-flair.jpg" alt="FLAIR Brain MRI Scan" class="ref-thumb">
-                    <div class="image-caption">Figure 4: FLAIR brain scan with fluid nulled dark, highlighting periventricular white matter lesions.</div>
-                    <ul class="keypoints-list">
-                        <li><strong>Key Parameter:</strong> Inversion Time (TI) ~ 2200–2500 ms at 1.5T / 3T.</li>
-                        <li><strong>Appearance:</strong> Brain parenchyma displays T2 contrast, but ventricles and sulcal CSF are completely dark.</li>
-                        <li><strong>Clinical Value:</strong> Standard of care for diagnosing multiple sclerosis plaques, infarction, and subarachnoid hemorrhage.</li>
-                    </ul>
-                </div>
-
-                <div class="ref-item">
-                    <span class="card-tag">Artifacts &amp; Fixes</span>
-                    <h3>What is Chemical Shift Artifact?</h3>
-                    <p>
-                        Chemical shift artifact occurs because hydrogen protons in fat molecules precess at a slightly lower resonant frequency than protons in water molecules (approximately 3.5 parts-per-million difference). When frequency encoding is used to map spatial position, fat tissue is mapped a few pixels away from its true physical location relative to water.
-                    </p>
-                    <img src="img/artifact-chemical-shift.jpg" alt="Chemical Shift Artifact on MRI" class="ref-thumb">
-                    <div class="image-caption">Figure 5: Chemical shift artifact visible at tissue boundaries along the frequency readout axis.</div>
-                    <ul class="keypoints-list">
-                        <li><strong>Visual Manifestation:</strong> A dark boundary on one side of an organ and a bright boundary on the opposite side.</li>
-                        <li><strong>Direction:</strong> Occurs strictly along the Frequency-Encoding axis (never along phase encoding).</li>
-                        <li><strong>Remedy:</strong> Increase receiver bandwidth (Hz/pixel) or apply fat saturation techniques.</li>
-                    </ul>
-                </div>
-
-                <div class="ref-item">
-                    <span class="card-tag">Artifacts &amp; Fixes</span>
-                    <h3>How does Patient Motion cause Ghosting Artifacts?</h3>
-                    <p>
-                        Patient motion (gross head movement, eye blinking, arterial pulsation, or respiration) causes phase errors between phase-encoding steps. Because phase encoding occurs over several seconds or minutes across TR intervals, movement gets Fourier transformed into periodic ghost copies along the phase axis.
-                    </p>
-                    <img src="img/artifact-motion.jpg" alt="Motion Ghosting Artifact" class="ref-thumb">
-                    <div class="image-caption">Figure 6: Motion ghosting repeating periodically along the phase-encoding direction.</div>
-                    <ul class="keypoints-list">
-                        <li><strong>Direction:</strong> Almost always manifests along the Phase-Encoding axis.</li>
-                        <li><strong>Correction:</strong> Swap phase and frequency axes, use respiratory/cardiac gating, or use radial k-space trajectories (BLADE/PROPELLER).</li>
-                    </ul>
-                </div>
-
-            </main>
-
-        </div>
-
+          <div class="ref-item">
+            <span class="card-tag">Artifacts &amp; Fixes</span>
+            <h3>How does Patient Motion cause Ghosting Artifacts?</h3>
+            <p>
+              Patient motion (gross head movement, eye blinking, arterial
+              pulsation, or respiration) causes phase errors between
+              phase-encoding steps. Because phase encoding occurs over several
+              seconds or minutes across TR intervals, movement gets Fourier
+              transformed into periodic ghost copies along the phase axis.
+            </p>
+            <img
+              src="img/artifact-motion.jpg"
+              alt="Motion Ghosting Artifact"
+              class="ref-thumb"
+            />
+            <div class="image-caption">
+              Figure 6: Motion ghosting repeating periodically along the
+              phase-encoding direction.
+            </div>
+            <ul class="keypoints-list">
+              <li>
+                <strong>Direction:</strong> Almost always manifests along the
+                Phase-Encoding axis.
+              </li>
+              <li>
+                <strong>Correction:</strong> Swap phase and frequency axes, use
+                respiratory/cardiac gating, or use radial k-space trajectories
+                (BLADE/PROPELLER).
+              </li>
+            </ul>
+          </div>
+        </main>
+      </div>
     </div>
 
     <footer>
-        <p>&copy; 2026 MRI Simulator Project. Basic HTML &amp; CSS Learning Edition.</p>
-        <p>
-            <a href="index.html">Home</a> |
-            <a href="courses.html">Courses</a> |
-            <a href="quiz.html">Quiz</a> |
-            <a href="reference.html">Reference</a>
-        </p>
+      <p>&copy; 2026 Fable-5 Project. Basic HTML &amp; CSS Learning Edition.</p>
+      <p>
+        <a href="index.html">Home</a> | <a href="courses.html">Courses</a> |
+        <a href="quiz.html">Quiz</a> |
+        <a href="reference.html">Reference</a>
+      </p>
     </footer>
-
-</body>
+  </body>
 </html>
