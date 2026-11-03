@@ -129,7 +129,7 @@
               <g id="li">
                 <rect id="li-bg" x="46.5" y="1036.5" width="297" height="102" rx="5.5" fill="#0f172a" stroke="#334155" stroke-width="1"/>
                 <g id="input">
-                  <g id="radio-checked"><circle cx="68.5" cy="1060.59" r="6" fill="#ffffff" stroke="#0075ff" stroke-width="1"/><circle cx="68.5" cy="1060.59" r="3.5" fill="#0075ff"/></g>
+                  <g id="radio-checked"><circle cx="68.5" cy="1060.5" r="6" fill="#ffffff" stroke="#0075ff" stroke-width="1"/><circle cx="68.5" cy="1060.5" r="3.5" fill="#0075ff"/></g>
                 </g>
                 <text x="89.45" y="1067" font-family="Arial" font-size="16" font-weight="700" fill="#e2e8f0" xml:space="preserve">(A) T1-weighted</text>
                 <text x="213.89" y="1067" font-family="Arial" font-size="16" font-weight="400" fill="#e2e8f0" xml:space="preserve">— Short TR</text>
@@ -139,7 +139,7 @@
               <g id="li-2">
                 <rect id="li-2-bg" x="46.5" y="1149.5" width="297" height="76" rx="5.5" fill="#0f172a" stroke="#334155" stroke-width="1"/>
                 <g id="input-2">
-                  <g id="radio"><circle cx="68.5" cy="1173.38" r="6" fill="#ffffff" stroke="#767676" stroke-width="1"/></g>
+                  <g id="radio"><circle cx="68.5" cy="1173.5" r="6" fill="#ffffff" stroke="#767676" stroke-width="1"/></g>
                 </g>
                 <text x="89.45" y="1180" font-family="Arial" font-size="16" font-weight="700" fill="#e2e8f0" xml:space="preserve">(B) T2-weighted</text>
                 <text x="213.89" y="1180" font-family="Arial" font-size="16" font-weight="400" fill="#e2e8f0" xml:space="preserve">— Long TR and</text>
@@ -148,7 +148,7 @@
               <g id="li-3">
                 <rect id="li-3-bg" x="46.5" y="1236.5" width="297" height="102" rx="5.5" fill="#0f172a" stroke="#334155" stroke-width="1"/>
                 <g id="input-3">
-                  <g id="radio-2"><circle cx="68.5" cy="1260.56" r="6" fill="#ffffff" stroke="#767676" stroke-width="1"/></g>
+                  <g id="radio-2"><circle cx="68.5" cy="1260.5" r="6" fill="#ffffff" stroke="#767676" stroke-width="1"/></g>
                 </g>
                 <text x="89.45" y="1267" font-family="Arial" font-size="16" font-weight="700" fill="#e2e8f0" xml:space="preserve">(C) Proton Density (PD)</text>
                 <text x="271.67" y="1267" font-family="Arial" font-size="16" font-weight="400" fill="#e2e8f0" xml:space="preserve">— Long</text>
@@ -158,7 +158,7 @@
               <g id="li-4">
                 <rect id="li-4-bg" x="46.5" y="1349.5" width="297" height="102" rx="5.5" fill="#0f172a" stroke="#334155" stroke-width="1"/>
                 <g id="input-4">
-                  <g id="radio-3"><circle cx="68.5" cy="1373.34" r="6" fill="#ffffff" stroke="#767676" stroke-width="1"/></g>
+                  <g id="radio-3"><circle cx="68.5" cy="1373.5" r="6" fill="#ffffff" stroke="#767676" stroke-width="1"/></g>
                 </g>
                 <text x="89.45" y="1380" font-family="Arial" font-size="16" font-weight="700" fill="#e2e8f0" xml:space="preserve">(D) Diffusion Weighted (DWI)</text>
                 <text x="62" y="1405" font-family="Arial" font-size="16" font-weight="400" fill="#e2e8f0" xml:space="preserve">— Measures random Brownian</text>

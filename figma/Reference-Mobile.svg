@@ -156,20 +156,20 @@
               </g>
               <g id="keypoints-list">
                 <g id="li-7">
-                  <circle id="bullet" cx="52.8" cy="1596.21" r="2.1" fill="#94a3b8"/>
+                  <circle id="bullet" cx="48" cy="1597" r="2" fill="#94a3b8"/>
                   <text x="61" y="1601" font-family="Arial" font-size="14" font-weight="700" fill="#94a3b8" xml:space="preserve">Parameters:</text>
                   <text x="145.81" y="1601" font-family="Arial" font-size="14" font-weight="400" fill="#94a3b8" xml:space="preserve">Short TR (300–600 ms) and</text>
                   <text x="61" y="1623" font-family="Arial" font-size="14" font-weight="400" fill="#94a3b8" xml:space="preserve">Short TE (10–25 ms).</text>
                 </g>
                 <g id="li-8">
-                  <circle id="bullet-2" cx="52.8" cy="1644.99" r="2.1" fill="#94a3b8"/>
+                  <circle id="bullet-2" cx="48" cy="1646" r="2" fill="#94a3b8"/>
                   <text x="61" y="1650" font-family="Arial" font-size="14" font-weight="700" fill="#94a3b8" xml:space="preserve">Appearance:</text>
                   <text x="149.69" y="1650" font-family="Arial" font-size="14" font-weight="400" fill="#94a3b8" xml:space="preserve">Fat is bright, white matter is</text>
                   <text x="61" y="1672" font-family="Arial" font-size="14" font-weight="400" fill="#94a3b8" xml:space="preserve">bright, gray matter is intermediate, CSF/fluid is</text>
                   <text x="61" y="1695" font-family="Arial" font-size="14" font-weight="400" fill="#94a3b8" xml:space="preserve">dark.</text>
                 </g>
                 <g id="li-9">
-                  <circle id="bullet-3" cx="52.8" cy="1716.16" r="2.1" fill="#94a3b8"/>
+                  <circle id="bullet-3" cx="48" cy="1717" r="2" fill="#94a3b8"/>
                   <text x="61" y="1721" font-family="Arial" font-size="14" font-weight="700" fill="#94a3b8" xml:space="preserve">Clinical Use:</text>
                   <text x="148.91" y="1721" font-family="Arial" font-size="14" font-weight="400" fill="#94a3b8" xml:space="preserve">Excellent for anatomical detail</text>
                   <text x="61" y="1743" font-family="Arial" font-size="14" font-weight="400" fill="#94a3b8" xml:space="preserve">and post-contrast gadolinium studies.</text>
@@ -210,19 +210,19 @@
               </g>
               <g id="keypoints-list-2">
                 <g id="li-10">
-                  <circle id="bullet-4" cx="52.8" cy="2494.44" r="2.1" fill="#94a3b8"/>
+                  <circle id="bullet-4" cx="48" cy="2495" r="2" fill="#94a3b8"/>
                   <text x="61" y="2499" font-family="Arial" font-size="14" font-weight="700" fill="#94a3b8" xml:space="preserve">Parameters:</text>
                   <text x="145.81" y="2499" font-family="Arial" font-size="14" font-weight="400" fill="#94a3b8" xml:space="preserve">Long TR (&gt; 2000 ms) and Long</text>
                   <text x="61" y="2522" font-family="Arial" font-size="14" font-weight="400" fill="#94a3b8" xml:space="preserve">TE (&gt; 80 ms).</text>
                 </g>
                 <g id="li-11">
-                  <circle id="bullet-5" cx="52.8" cy="2543.22" r="2.1" fill="#94a3b8"/>
+                  <circle id="bullet-5" cx="48" cy="2544" r="2" fill="#94a3b8"/>
                   <text x="61" y="2548" font-family="Arial" font-size="14" font-weight="700" fill="#94a3b8" xml:space="preserve">Appearance:</text>
                   <text x="149.69" y="2548" font-family="Arial" font-size="14" font-weight="400" fill="#94a3b8" xml:space="preserve">Fluid and CSF are very bright;</text>
                   <text x="61" y="2570" font-family="Arial" font-size="14" font-weight="400" fill="#94a3b8" xml:space="preserve">muscle and cortical bone are dark.</text>
                 </g>
                 <g id="li-12">
-                  <circle id="bullet-6" cx="52.8" cy="2592.01" r="2.1" fill="#94a3b8"/>
+                  <circle id="bullet-6" cx="48" cy="2593" r="2" fill="#94a3b8"/>
                   <text x="61" y="2597" font-family="Arial" font-size="14" font-weight="700" fill="#94a3b8" xml:space="preserve">Clinical Use:</text>
                   <text x="148.91" y="2597" font-family="Arial" font-size="14" font-weight="400" fill="#94a3b8" xml:space="preserve">Sensitive for detecting</text>
                   <text x="61" y="2619" font-family="Arial" font-size="14" font-weight="400" fill="#94a3b8" xml:space="preserve">pathology, inflammation, edema, and tumors.</text>
@@ -266,14 +266,14 @@
               </g>
               <g id="keypoints-list-3">
                 <g id="li-13">
-                  <circle id="bullet-7" cx="52.8" cy="3366.32" r="2.1" fill="#94a3b8"/>
+                  <circle id="bullet-7" cx="48" cy="3367" r="2" fill="#94a3b8"/>
                   <text x="61" y="3371" font-family="Arial" font-size="14" font-weight="700" fill="#94a3b8" xml:space="preserve">Spin Echo:</text>
                   <text x="138" y="3371" font-family="Arial" font-size="14" font-weight="400" fill="#94a3b8" xml:space="preserve">Clean true T2 contrast, higher RF</text>
                   <text x="61" y="3393" font-family="Arial" font-size="14" font-weight="400" fill="#94a3b8" xml:space="preserve">energy deposition (higher SAR), longer scan</text>
                   <text x="61" y="3416" font-family="Arial" font-size="14" font-weight="400" fill="#94a3b8" xml:space="preserve">times.</text>
                 </g>
                 <g id="li-14">
-                  <circle id="bullet-8" cx="52.8" cy="3437.49" r="2.1" fill="#94a3b8"/>
+                  <circle id="bullet-8" cx="48" cy="3438" r="2" fill="#94a3b8"/>
                   <text x="61" y="3442" font-family="Arial" font-size="14" font-weight="700" fill="#94a3b8" xml:space="preserve">Gradient Echo:</text>
                   <text x="165.23" y="3442" font-family="Arial" font-size="14" font-weight="400" fill="#94a3b8" xml:space="preserve">Fast 2D/3D imaging, low</text>
                   <text x="61" y="3465" font-family="Arial" font-size="14" font-weight="400" fill="#94a3b8" xml:space="preserve">SAR, sensitive to hemorrhage and iron</text>
@@ -313,20 +313,20 @@
               </g>
               <g id="keypoints-list-4">
                 <g id="li-15">
-                  <circle id="bullet-9" cx="52.8" cy="4234.96" r="2.1" fill="#94a3b8"/>
+                  <circle id="bullet-9" cx="48" cy="4236" r="2" fill="#94a3b8"/>
                   <text x="61" y="4240" font-family="Arial" font-size="14" font-weight="700" fill="#94a3b8" xml:space="preserve">Key Parameter:</text>
                   <text x="167.61" y="4240" font-family="Arial" font-size="14" font-weight="400" fill="#94a3b8" xml:space="preserve">Inversion Time (TI) ~ 2200–</text>
                   <text x="61" y="4262" font-family="Arial" font-size="14" font-weight="400" fill="#94a3b8" xml:space="preserve">2500 ms at 1.5T / 3T.</text>
                 </g>
                 <g id="li-16">
-                  <circle id="bullet-10" cx="52.8" cy="4283.74" r="2.1" fill="#94a3b8"/>
+                  <circle id="bullet-10" cx="48" cy="4285" r="2" fill="#94a3b8"/>
                   <text x="61" y="4289" font-family="Arial" font-size="14" font-weight="700" fill="#94a3b8" xml:space="preserve">Appearance:</text>
                   <text x="149.69" y="4289" font-family="Arial" font-size="14" font-weight="400" fill="#94a3b8" xml:space="preserve">Brain parenchyma displays T2</text>
                   <text x="61" y="4311" font-family="Arial" font-size="14" font-weight="400" fill="#94a3b8" xml:space="preserve">contrast, but ventricles and sulcal CSF are</text>
                   <text x="61" y="4333" font-family="Arial" font-size="14" font-weight="400" fill="#94a3b8" xml:space="preserve">completely dark.</text>
                 </g>
                 <g id="li-17">
-                  <circle id="bullet-11" cx="52.8" cy="4354.91" r="2.1" fill="#94a3b8"/>
+                  <circle id="bullet-11" cx="48" cy="4356" r="2" fill="#94a3b8"/>
                   <text x="61" y="4360" font-family="Arial" font-size="14" font-weight="700" fill="#94a3b8" xml:space="preserve">Clinical Value:</text>
                   <text x="159.81" y="4360" font-family="Arial" font-size="14" font-weight="400" fill="#94a3b8" xml:space="preserve">Standard of care for</text>
                   <text x="61" y="4382" font-family="Arial" font-size="14" font-weight="400" fill="#94a3b8" xml:space="preserve">diagnosing multiple sclerosis plaques,</text>
@@ -364,21 +364,21 @@
               </g>
               <g id="keypoints-list-5">
                 <g id="li-18">
-                  <circle id="bullet-12" cx="52.8" cy="5026.04" r="2.1" fill="#94a3b8"/>
+                  <circle id="bullet-12" cx="48" cy="5027" r="2" fill="#94a3b8"/>
                   <text x="61" y="5031" font-family="Arial" font-size="14" font-weight="700" fill="#94a3b8" xml:space="preserve">Visual Manifestation:</text>
                   <text x="203.89" y="5031" font-family="Arial" font-size="14" font-weight="400" fill="#94a3b8" xml:space="preserve">A dark boundary on</text>
                   <text x="61" y="5053" font-family="Arial" font-size="14" font-weight="400" fill="#94a3b8" xml:space="preserve">one side of an organ and a bright boundary on</text>
                   <text x="61" y="5076" font-family="Arial" font-size="14" font-weight="400" fill="#94a3b8" xml:space="preserve">the opposite side.</text>
                 </g>
                 <g id="li-19">
-                  <circle id="bullet-13" cx="52.8" cy="5097.21" r="2.1" fill="#94a3b8"/>
+                  <circle id="bullet-13" cx="48" cy="5098" r="2" fill="#94a3b8"/>
                   <text x="61" y="5102" font-family="Arial" font-size="14" font-weight="700" fill="#94a3b8" xml:space="preserve">Direction:</text>
                   <text x="130.22" y="5102" font-family="Arial" font-size="14" font-weight="400" fill="#94a3b8" xml:space="preserve">Occurs strictly along the</text>
                   <text x="61" y="5124" font-family="Arial" font-size="14" font-weight="400" fill="#94a3b8" xml:space="preserve">Frequency-Encoding axis (never along phase</text>
                   <text x="61" y="5147" font-family="Arial" font-size="14" font-weight="400" fill="#94a3b8" xml:space="preserve">encoding).</text>
                 </g>
                 <g id="li-20">
-                  <circle id="bullet-14" cx="52.8" cy="5168.38" r="2.1" fill="#94a3b8"/>
+                  <circle id="bullet-14" cx="48" cy="5169" r="2" fill="#94a3b8"/>
                   <text x="61" y="5173" font-family="Arial" font-size="14" font-weight="700" fill="#94a3b8" xml:space="preserve">Remedy:</text>
                   <text x="124.02" y="5173" font-family="Arial" font-size="14" font-weight="400" fill="#94a3b8" xml:space="preserve">Increase receiver bandwidth</text>
                   <text x="61" y="5196" font-family="Arial" font-size="14" font-weight="400" fill="#94a3b8" xml:space="preserve">(Hz/pixel) or apply fat saturation techniques.</text>
@@ -415,13 +415,13 @@
               </g>
               <g id="keypoints-list-6">
                 <g id="li-21">
-                  <circle id="bullet-15" cx="52.8" cy="5921.07" r="2.1" fill="#94a3b8"/>
+                  <circle id="bullet-15" cx="48" cy="5922" r="2" fill="#94a3b8"/>
                   <text x="61" y="5926" font-family="Arial" font-size="14" font-weight="700" fill="#94a3b8" xml:space="preserve">Direction:</text>
                   <text x="129.45" y="5926" font-family="Arial" font-size="14" font-weight="400" fill="#94a3b8" xml:space="preserve">Almost always manifests along the</text>
                   <text x="61" y="5948" font-family="Arial" font-size="14" font-weight="400" fill="#94a3b8" xml:space="preserve">Phase-Encoding axis.</text>
                 </g>
                 <g id="li-22">
-                  <circle id="bullet-16" cx="52.8" cy="5969.85" r="2.1" fill="#94a3b8"/>
+                  <circle id="bullet-16" cx="48" cy="5971" r="2" fill="#94a3b8"/>
                   <text x="61" y="5975" font-family="Arial" font-size="14" font-weight="700" fill="#94a3b8" xml:space="preserve">Correction:</text>
                   <text x="140.33" y="5975" font-family="Arial" font-size="14" font-weight="400" fill="#94a3b8" xml:space="preserve">Swap phase and frequency axes,</text>
                   <text x="61" y="5997" font-family="Arial" font-size="14" font-weight="400" fill="#94a3b8" xml:space="preserve">use respiratory/cardiac gating, or use radial k-</text>

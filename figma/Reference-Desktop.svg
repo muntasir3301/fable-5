@@ -147,17 +147,17 @@
               </g>
               <g id="keypoints-list">
                 <g id="li-7">
-                  <circle id="bullet" cx="507.8" cy="834.55" r="2.1" fill="#94a3b8"/>
+                  <circle id="bullet" cx="503" cy="835" r="2" fill="#94a3b8"/>
                   <text x="516" y="839" font-family="Arial" font-size="14" font-weight="700" fill="#94a3b8" xml:space="preserve">Parameters:</text>
                   <text x="600.81" y="839" font-family="Arial" font-size="14" font-weight="400" fill="#94a3b8" xml:space="preserve">Short TR (300–600 ms) and Short TE (10–25 ms).</text>
                 </g>
                 <g id="li-8">
-                  <circle id="bullet-2" cx="507.8" cy="860.94" r="2.1" fill="#94a3b8"/>
+                  <circle id="bullet-2" cx="503" cy="862" r="2" fill="#94a3b8"/>
                   <text x="516" y="866" font-family="Arial" font-size="14" font-weight="700" fill="#94a3b8" xml:space="preserve">Appearance:</text>
                   <text x="604.69" y="866" font-family="Arial" font-size="14" font-weight="400" fill="#94a3b8" xml:space="preserve">Fat is bright, white matter is bright, gray matter is intermediate, CSF/fluid is dark.</text>
                 </g>
                 <g id="li-9">
-                  <circle id="bullet-3" cx="507.8" cy="887.33" r="2.1" fill="#94a3b8"/>
+                  <circle id="bullet-3" cx="503" cy="888" r="2" fill="#94a3b8"/>
                   <text x="516" y="892" font-family="Arial" font-size="14" font-weight="700" fill="#94a3b8" xml:space="preserve">Clinical Use:</text>
                   <text x="603.91" y="892" font-family="Arial" font-size="14" font-weight="400" fill="#94a3b8" xml:space="preserve">Excellent for anatomical detail and post-contrast gadolinium studies.</text>
                 </g>
@@ -191,17 +191,17 @@
               </g>
               <g id="keypoints-list-2">
                 <g id="li-10">
-                  <circle id="bullet-4" cx="507.8" cy="1467.27" r="2.1" fill="#94a3b8"/>
+                  <circle id="bullet-4" cx="503" cy="1468" r="2" fill="#94a3b8"/>
                   <text x="516" y="1472" font-family="Arial" font-size="14" font-weight="700" fill="#94a3b8" xml:space="preserve">Parameters:</text>
                   <text x="600.81" y="1472" font-family="Arial" font-size="14" font-weight="400" fill="#94a3b8" xml:space="preserve">Long TR (&gt; 2000 ms) and Long TE (&gt; 80 ms).</text>
                 </g>
                 <g id="li-11">
-                  <circle id="bullet-5" cx="507.8" cy="1493.66" r="2.1" fill="#94a3b8"/>
+                  <circle id="bullet-5" cx="503" cy="1494" r="2" fill="#94a3b8"/>
                   <text x="516" y="1498" font-family="Arial" font-size="14" font-weight="700" fill="#94a3b8" xml:space="preserve">Appearance:</text>
                   <text x="604.69" y="1498" font-family="Arial" font-size="14" font-weight="400" fill="#94a3b8" xml:space="preserve">Fluid and CSF are very bright; muscle and cortical bone are dark.</text>
                 </g>
                 <g id="li-12">
-                  <circle id="bullet-6" cx="507.8" cy="1520.05" r="2.1" fill="#94a3b8"/>
+                  <circle id="bullet-6" cx="503" cy="1521" r="2" fill="#94a3b8"/>
                   <text x="516" y="1525" font-family="Arial" font-size="14" font-weight="700" fill="#94a3b8" xml:space="preserve">Clinical Use:</text>
                   <text x="603.91" y="1525" font-family="Arial" font-size="14" font-weight="400" fill="#94a3b8" xml:space="preserve">Sensitive for detecting pathology, inflammation, edema, and tumors.</text>
                 </g>
@@ -235,12 +235,12 @@
               </g>
               <g id="keypoints-list-3">
                 <g id="li-13">
-                  <circle id="bullet-7" cx="507.8" cy="2074.51" r="2.1" fill="#94a3b8"/>
+                  <circle id="bullet-7" cx="503" cy="2075" r="2" fill="#94a3b8"/>
                   <text x="516" y="2079" font-family="Arial" font-size="14" font-weight="700" fill="#94a3b8" xml:space="preserve">Spin Echo:</text>
                   <text x="593" y="2079" font-family="Arial" font-size="14" font-weight="400" fill="#94a3b8" xml:space="preserve">Clean true T2 contrast, higher RF energy deposition (higher SAR), longer scan times.</text>
                 </g>
                 <g id="li-14">
-                  <circle id="bullet-8" cx="507.8" cy="2100.9" r="2.1" fill="#94a3b8"/>
+                  <circle id="bullet-8" cx="503" cy="2102" r="2" fill="#94a3b8"/>
                   <text x="516" y="2106" font-family="Arial" font-size="14" font-weight="700" fill="#94a3b8" xml:space="preserve">Gradient Echo:</text>
                   <text x="620.23" y="2106" font-family="Arial" font-size="14" font-weight="400" fill="#94a3b8" xml:space="preserve">Fast 2D/3D imaging, low SAR, sensitive to hemorrhage and iron deposits (T2*).</text>
                 </g>
@@ -271,17 +271,17 @@
               </g>
               <g id="keypoints-list-4">
                 <g id="li-15">
-                  <circle id="bullet-9" cx="507.8" cy="2680.83" r="2.1" fill="#94a3b8"/>
+                  <circle id="bullet-9" cx="503" cy="2682" r="2" fill="#94a3b8"/>
                   <text x="516" y="2686" font-family="Arial" font-size="14" font-weight="700" fill="#94a3b8" xml:space="preserve">Key Parameter:</text>
                   <text x="622.61" y="2686" font-family="Arial" font-size="14" font-weight="400" fill="#94a3b8" xml:space="preserve">Inversion Time (TI) ~ 2200–2500 ms at 1.5T / 3T.</text>
                 </g>
                 <g id="li-16">
-                  <circle id="bullet-10" cx="507.8" cy="2707.22" r="2.1" fill="#94a3b8"/>
+                  <circle id="bullet-10" cx="503" cy="2708" r="2" fill="#94a3b8"/>
                   <text x="516" y="2712" font-family="Arial" font-size="14" font-weight="700" fill="#94a3b8" xml:space="preserve">Appearance:</text>
                   <text x="604.69" y="2712" font-family="Arial" font-size="14" font-weight="400" fill="#94a3b8" xml:space="preserve">Brain parenchyma displays T2 contrast, but ventricles and sulcal CSF are completely dark.</text>
                 </g>
                 <g id="li-17">
-                  <circle id="bullet-11" cx="507.8" cy="2733.61" r="2.1" fill="#94a3b8"/>
+                  <circle id="bullet-11" cx="503" cy="2734" r="2" fill="#94a3b8"/>
                   <text x="516" y="2738" font-family="Arial" font-size="14" font-weight="700" fill="#94a3b8" xml:space="preserve">Clinical Value:</text>
                   <text x="614.81" y="2738" font-family="Arial" font-size="14" font-weight="400" fill="#94a3b8" xml:space="preserve">Standard of care for diagnosing multiple sclerosis plaques, infarction, and subarachnoid</text>
                   <text x="516" y="2761" font-family="Arial" font-size="14" font-weight="400" fill="#94a3b8" xml:space="preserve">hemorrhage.</text>
@@ -312,17 +312,17 @@
               </g>
               <g id="keypoints-list-5">
                 <g id="li-18">
-                  <circle id="bullet-12" cx="507.8" cy="3235.19" r="2.1" fill="#94a3b8"/>
+                  <circle id="bullet-12" cx="503" cy="3236" r="2" fill="#94a3b8"/>
                   <text x="516" y="3240" font-family="Arial" font-size="14" font-weight="700" fill="#94a3b8" xml:space="preserve">Visual Manifestation:</text>
                   <text x="658.89" y="3240" font-family="Arial" font-size="14" font-weight="400" fill="#94a3b8" xml:space="preserve">A dark boundary on one side of an organ and a bright boundary on the opposite side.</text>
                 </g>
                 <g id="li-19">
-                  <circle id="bullet-13" cx="507.8" cy="3261.58" r="2.1" fill="#94a3b8"/>
+                  <circle id="bullet-13" cx="503" cy="3262" r="2" fill="#94a3b8"/>
                   <text x="516" y="3266" font-family="Arial" font-size="14" font-weight="700" fill="#94a3b8" xml:space="preserve">Direction:</text>
                   <text x="585.22" y="3266" font-family="Arial" font-size="14" font-weight="400" fill="#94a3b8" xml:space="preserve">Occurs strictly along the Frequency-Encoding axis (never along phase encoding).</text>
                 </g>
                 <g id="li-20">
-                  <circle id="bullet-14" cx="507.8" cy="3287.97" r="2.1" fill="#94a3b8"/>
+                  <circle id="bullet-14" cx="503" cy="3289" r="2" fill="#94a3b8"/>
                   <text x="516" y="3293" font-family="Arial" font-size="14" font-weight="700" fill="#94a3b8" xml:space="preserve">Remedy:</text>
                   <text x="579.02" y="3293" font-family="Arial" font-size="14" font-weight="400" fill="#94a3b8" xml:space="preserve">Increase receiver bandwidth (Hz/pixel) or apply fat saturation techniques.</text>
                 </g>
@@ -352,12 +352,12 @@
               </g>
               <g id="keypoints-list-6">
                 <g id="li-21">
-                  <circle id="bullet-15" cx="507.8" cy="3867.91" r="2.1" fill="#94a3b8"/>
+                  <circle id="bullet-15" cx="503" cy="3869" r="2" fill="#94a3b8"/>
                   <text x="516" y="3873" font-family="Arial" font-size="14" font-weight="700" fill="#94a3b8" xml:space="preserve">Direction:</text>
                   <text x="584.45" y="3873" font-family="Arial" font-size="14" font-weight="400" fill="#94a3b8" xml:space="preserve">Almost always manifests along the Phase-Encoding axis.</text>
                 </g>
                 <g id="li-22">
-                  <circle id="bullet-16" cx="507.8" cy="3894.3" r="2.1" fill="#94a3b8"/>
+                  <circle id="bullet-16" cx="503" cy="3895" r="2" fill="#94a3b8"/>
                   <text x="516" y="3899" font-family="Arial" font-size="14" font-weight="700" fill="#94a3b8" xml:space="preserve">Correction:</text>
                   <text x="595.33" y="3899" font-family="Arial" font-size="14" font-weight="400" fill="#94a3b8" xml:space="preserve">Swap phase and frequency axes, use respiratory/cardiac gating, or use radial k-space trajectories</text>
                   <text x="516" y="3921" font-family="Arial" font-size="14" font-weight="400" fill="#94a3b8" xml:space="preserve">(BLADE/PROPELLER).</text>
